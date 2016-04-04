@@ -8,7 +8,30 @@ More Examples:
 ![Sample Image](https://raw.githubusercontent.com/gsk-gagan/pentagon-rating/master/Sample.png)
 
 ----------
-How To Use
+How To Use - Using Bower
+-------------
+- Download all the files using bower.
+```
+$ bower install penta_rating
+```
+- In your **index.html** include these files
+```HTML
+<link rel="stylesheet" href="/bower_components/penta_rating/penta_rating.style.css"/>
+```
+```HTML
+<script src="/bower_components/penta_rating/penta_rating.directive.js"></script>
+```
+- In your **app.js** include your directive as
+```HTML
+var app = angular.module('yourAngularApp',['app.directive.pentaRating']);
+```
+- Use your penta-rating directive as
+```HTML
+<penta-rating radius="30" rating="5" lighttheme="false"></penta-rating>
+```
+
+----------
+How To Use - Manually
 -------------
 - Download all the files of this repository to your project.
 - In your **index.html** include these files
