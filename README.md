@@ -5,7 +5,7 @@ An angularjs directive which helps you include visually amazing Pentagon style R
 See live example at [Used Bikes by CruzyMe](http://cruzy.me/)
 
 More Examples:
-Insert Image Here
+![Sample Image](https://raw.githubusercontent.com/gsk-gagan/pentagon-rating/master/Sample.png)
 
 ----------
 How To Use
