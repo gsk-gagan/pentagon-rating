@@ -1,4 +1,4 @@
-Welcome to Pentagon-Rating for AngularJS (a.k.a. penta-rating)
+Welcome to Pentagon-Rating for AngularJS (a.k.a. penta_rating)
 ===================
 An angularjs directive which helps you include visually amazing Pentagon style Rating.
 
