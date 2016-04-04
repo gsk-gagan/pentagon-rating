@@ -1,4 +1,4 @@
-Welcome to Pentagon-Rating (a.k.a. penta-rating)
+Welcome to Pentagon-Rating for AngularJS (a.k.a. penta-rating)
 ===================
 An angularjs directive which helps you include visually amazing Pentagon style Rating.
 
@@ -16,7 +16,7 @@ How To Use
 <link rel="stylesheet" href="your_project_folder/penta_rating.style.css"/>
 ```
 ```HTML
-<script src="shared/penta_rating/penta_rating.directive.js"></script>
+<script src="your_project_folder/penta_rating.directive.js"></script>
 ```
 - In your **app.js** include your directive as
 ```HTML
