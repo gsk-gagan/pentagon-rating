@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+.penta-part-green-dark {
+    fill: #5cb85c;
+    /*stroke:#000;*/
+    /*stroke-width:0.25;*/
+    fill-rule:nonzero;
+}
+
+.penta-part-green-light {
+    fill: #5cb85c;
+    /*stroke:#fff;*/
+    /*stroke-width:0.25;*/
+    fill-rule:nonzero;
+}
+
+.penta-part-yellow-dark {
+    fill: #f0ad4e;
+    /*stroke:#000;*/
+    /*stroke-width:0.25;*/
+    fill-rule:nonzero;
+}
+
+.penta-part-yellow-light {
+    fill: #f0ad4e;
+    /*stroke:#fff;*/
+    /*stroke-width:0.25;*/
+    fill-rule:nonzero;
+}
+
+.penta-part-red-dark {
+    fill: #d9534f;
+    /*stroke:#000;*/
+    /*stroke-width:0.25;*/
+    fill-rule:nonzero;
+}
+
+.penta-part-red-light {
+    fill: #d9534f;
+    /*stroke:#fff;*/
+    /*stroke-width:0.25;*/
+    fill-rule:nonzero;
+}
+
+.penta-text {
+    text-anchor:middle;
+    font-family:'Open Sans', sans-serif;
+    font-weight:600;
+}
+
+.darkPentagon {
+    fill: #000;
+    fill-rule: nonzero;
+    opacity: 0.3;
+}
+
+.lightPentagon {
+    fill: #fff;
+    fill-rule: nonzero;
+    opacity: 0.3;
+}

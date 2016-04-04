@@ -1,0 +1,11 @@
+<div>
+	<svg ng-attr-height="{{r*2}}" ng-attr-width="{{r*2}}">
+		<polygon ng-attr-points="{{smallPentagon}}" ng-class="smallPentagonClass()"></polygon>
+		<polygon ng-attr-points="{{parts[0]}}" ng-class="getPartClass()" ng-style="{'opacity':getPartOpacity(0)}"/>
+		<polygon ng-attr-points="{{parts[1]}}" ng-class="getPartClass()" ng-style="{'opacity':getPartOpacity(1)}"/>
+		<polygon ng-attr-points="{{parts[2]}}" ng-class="getPartClass()" ng-style="{'opacity':getPartOpacity(2)}"/>
+		<polygon ng-attr-points="{{parts[3]}}" ng-class="getPartClass()" ng-style="{'opacity':getPartOpacity(3)}"/>
+		<polygon ng-attr-points="{{parts[4]}}" ng-class="getPartClass()" ng-style="{'opacity':getPartOpacity(4)}"/>
+		<text font-size="{{r/1.7}}" class="penta-text" ng-attr-x="{{r}}" ng-attr-y="{{1.3*r}}" ng-attr-fill="{{lighttheme == 'true' ? '#444' : 'white'}}">{{rating}}</text>
+	</svg>
+</div>
